@@ -45,7 +45,7 @@ body * {
 #conteiner {
   width: 100%;
   max-width: 588px;
-  margin: 56px auto;
+  margin: 36px auto;
 }
 #profile {
   text-align: center;
@@ -147,6 +147,7 @@ ul li a:hover {
   /* gap: 32px; */
   padding: 24px 0;
   font-size: 24px;
+  /* border: solid red 2px; */
 }
 #rede_social a {
   display: flex;
