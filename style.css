@@ -1,18 +1,3 @@
-body {
-  /* /* Define uma imagem de fundo para o corpo da página
-  background-image: url(./assets/bg-mobile.jpg);
-
-  /* Impede que a imagem de fundo se repita */
-  /* background-repeat: no-repeat; */
-
-  /* Define a posição vertical e horizontal da imagem de fundo */
-  /* background-position: top center; */
-
-  /* Redimensiona a imagem de fundo para cobrir todo o elemento */
-  /* background-size: cover; */
-
-  background: var(--bg-url) no-repeat top center/cover;
-}
 :root {
   --cor-texto: white;
   --bg-url: url(./assets/bg-desktop.jpg);
@@ -36,6 +21,22 @@ body {
   padding: 0;
   /* as medidas são do tamanho da borda */
   box-sizing: border-box;
+}
+body {
+  /* /* Define uma imagem de fundo para o corpo da página
+  background-image: url(./assets/bg-mobile.jpg);
+
+  /* Impede que a imagem de fundo se repita */
+  /* background-repeat: no-repeat; */
+
+  /* Define a posição vertical e horizontal da imagem de fundo */
+  /* background-position: top center; */
+
+  /* Redimensiona a imagem de fundo para cobrir todo o elemento */
+  /* background-size: cover; */
+
+  background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 body * {
   font-family: "Inter", sans-serif;
